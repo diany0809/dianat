@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+.container {
+	
+	width: 3%;
+    height: 3%;
+	margin-left: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.primero_header {
+    padding: inherit;
+	width: 100%;
+	background-color:white;
+    font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	clear: left;
+
+}
+
+*  { font-family: arial; margin: 0}
+h1 { text-align: center; }
+body > p  { text-align: justify; margin: 0 40px; }
+principal { width: 800px; height: 800px; background-color: #ffffff; margin:auto; }
+div p  { padding: 10px }
+
+* {
+  padding: 0;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image:url("HVFINAL/img/fondo.jpg"); 
+}
+
+.btn1 {
+  width: 500px;
+  height: 120px;
+  background: #ff6f3c;
+  position: relative;
+  margin: 25px;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.btn1::before{
+  content: 'ACERCA DE MÍ';
+  text-align: center;
+  color: white;
+  align-items: center;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  transition: all .5s ease-in-out;
+}
+
+.btn1:hover::before{
+  top: -30px;
+}
+
+.btn1::after {
+  font-family: "Font Awesome 6 Pro";
+  content: "\f8f5";
+  font-size: 40px;
+  color: red;
+  color: red;
+  position: absolute;
+  top: 150%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  transition: all .5s ease-in-out;
+}
+
+.btn1:hover::after {
+  top: 50%;
+}
+
+//caja1  { 
+    width: 180px; 
+    height: 150px; 
+    background-color: #fff500; 
+    margin: 25px; 
+    float: inherit;
+    display: flex;
+    justify-content: center;
+    color: #333;
+    border-radius: 5px;
+        
+}
+
+
+//caja2  { 
+    width: 180px; 
+    height: 150px; 
+    background-color: #fff500; 
+    margin: 25px; 
+    float: inherit;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #333;
+}
+
+.btn2 {
+  width: 500px;
+  height: 120px;
+  background: #ff6f3c;
+  position: relative;
+  margin: 25px;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.btn2::before{
+  content: 'PORTAFOLIO';
+  text-align: center;
+  color: white;
+  align-items: center;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  transition: all .5s ease-in-out;
+}
+
+.btn2:hover::before{
+  top: -30px;
+}
+
+.btn2::after {
+  font-family: "Font Awesome 6 Pro";
+  content: "\f8f5";
+  font-size: 40px;
+  color: red;
+  color: red;
+  position: absolute;
+  top: 150%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  transition: all .5s ease-in-out;
+}
+
+.btn2:hover::after {
+  top: 50%;
+}
+
+
+
+//caja3  { 
+    width: 180px; 
+    height: 150px; 
+    background-color: #fff500; 
+    margin: 25px; 
+    float: inherit;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #333;
+}
+
+.btn3 {
+  width: 500px;
+  height: 120px;
+  background: #ff6f3c;
+  position: relative;
+  margin: 25px;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.btn3::before{
+  content: 'BLOG';
+  text-align: center;
+  color: white;
+  align-items: center;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  transition: all .5s ease-in-out;
+}
+
+.btn3:hover::before{
+  top: -30px;
+}
+
+.btn3::after {
+  font-family: "Font Awesome 6 Pro";
+  content: "\f8f5";
+  font-size: 40px;
+  color: red;
+  color: red;
+  position: absolute;
+  top: 150%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  transition: all .5s ease-in-out;
+}
+
+.btn3:hover::after {
+  top: 50%;
+}
+
+
+//caja4  { 
+    width: 180px; 
+    height: 150px; 
+    background-color: #fff500; 
+    margin: 25px; 
+    float: inherit;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #333;
+}
+
+
+
+.btn4 {
+  width: 500px;
+  height: 120px;
+  background: #ff6f3c;
+  position: relative;
+  margin: 25px;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.btn4::before{
+  content: 'CONTACTO';
+  text-align: center;
+  color: white;
+  align-items: center;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  transition: all .5s ease-in-out;
+}
+
+.btn4:hover::before{
+  top: -30px;
+}
+
+.btn4::after {
+  font-family: "Font Awesome 6 Pro";
+  content: "\f8f5";
+  font-size: 40px;
+  color: red;
+  color: red;
+  position: absolute;
+  top: 150%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  transition: all .5s ease-in-out;
+}
+
+.btn4:hover::after {
+  top: 50%;
+}
+
+
